@@ -1,0 +1,824 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  background: url("../images/hottub.jpg") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+}
+a {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+nav {
+    float: right;
+    margin-top: 5px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+nav a {
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 5px;
+    line-height: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: black!important;
+  font-weight: bold;
+  font-size: 30px;
+}
+h3 {
+  margin-left: 850px;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: black!important;
+  font-weight: bold;
+  font-size: 30px;
+}
+h4 {
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: black!important;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-left: 150px;
+  width: 600px;
+}
+h5 {
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: black!important;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+h6 {
+  text-align: center;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: black!important;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-left: 500px;
+  width: 500px;
+}
+img {
+  height: 150px;
+  width: 250px;
+  object-position: fixed;
+}
+.glyphicon {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/* Home Page */
+body #two {
+  position: left;
+  top: 1000px;
+  bottom: 10px;
+  width: 300px; 
+  height: 400px;
+  margin-top: 500px;
+  object-position: fixed;
+}
+#two {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 30px;
+}
+#two-two {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+body #three {
+  position: left;
+  top: 1000px;
+  bottom: 10px;
+  height: 400px;
+  width: 300px;
+  margin-top: 500px;
+  object-position: fixed;
+}
+#three {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 30px;
+}
+#three-two {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+body #four {
+  position: left;
+  top: 1000px;
+  bottom: 10px;
+  height: 400px;
+  width: 300px;
+  margin-top: 500px;
+  object-position: fixed;
+}
+#four {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 30px;
+}
+#four-two {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+body #five {
+  position: left;
+  top: 1000px;
+  bottom: 10px;
+  height: 400px;
+  width: 300px;
+  margin-top: 500px;
+  object-position: fixed;
+}
+#five {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 30px;
+}
+#five-two {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Amenities Page */
+#amenities-one {
+  background: url("../images/hottub.jpg") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+}
+#amenities-two {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 30px 0;
+  border: 2px solid;
+  margin-top: 60px;
+}
+#amenities-two-one {
+  border-radius: 30px;
+  width: 500px;
+  text-align: left;
+}
+#amenities-two-two {
+  width: 1070px;
+  margin-left: 300px;
+  font-size: 17px;
+  height: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+/* Contact Page */
+#contact-one {
+  background-color: rgba(255,255,255,0.7);
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+  float: left;
+  width: 100%;
+  margin-top: 80px;
+  height: 550px;
+}
+#contact-two {
+  float: left;
+  width: 700px;
+  margin-left: 40px;
+  font-size: 17px;
+  height: 400px;
+  flex-wrap: wrap;
+}
+.glyphicon1 {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+  //Create a contructor to creat month objects
+
+/* Rates/Booking Page */
+body{width:100%;height:700px;}
+#space{width:300px;margin:auto;margin-top:100px}
+.nopaddingnomargin{margin:0;padding:0;}
+
+#calendar{background:#303f9f;height:500px;width:100%; }
+#header{width:90%;margin-left:5%;height:30px;color:white;margin-top:5px;}
+#header i{width:20%;font-size:15px;}
+#header p{width:60%;margin:0;padding:0;}
+#header i, #header p{float:left;height:100%;font-size:18px;}
+ul{list-style:none;}
+#dates > div{width:14%;float:left;}
+#dates > div ul{min-height:300px:width:100%;border:1px solid black;}
+#dates p{text-align: center;color:rgba(189, 195, 199, 0.6)}
+#dates > div > ul > li{margin-top:45%;text-align:center;color:white;width:50px;height:50px;cursor:pointer;border-radius:50%;padding-top:15%;}
+#dates li:hover{animation-name:circle;animation-duration:4s;}
+
+@keyframes circle{
+  from{background:rgba(189, 195, 199, 0.2)}
+  to{white;color:black;background:white;}
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+
+/* Location Page */
+#masterDiv{
+  padding-top: 6rem;
+  padding-left: 10px;
+  flex-wrap: wrap;
+}
+.location-panel-title {
+  margin-left: 50px;
+  padding-right: 10px;
+  display: flex; 
+  flex-wrap: wrap;
+}
+#map {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    frameborder: 0;
+    border:0;
+    padding-bottom: 2em;
+}
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
+#foursquareResults {
+    padding-top: 2rem;
+    color: white;
+}
+.foursqSearch {
+    background: #4B56AA; 
+    background: -webkit-linear-gradient(left top, #4B56AA, #CEE8FF); 
+    background: -o-linear-gradient(bottom right, #4B56AA, #CEE8FF); 
+    background: -moz-linear-gradient(bottom right, #4B56AA, #CEE8FF); 
+    background: linear-gradient(to bottom right, #4B56AA, #CEE8FF);
+}
+.foursqSearch a{
+    color:white;
+}
+#headingRow {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background : rgba(0, 0, 0, 0.3);
+}
+#addressPanel {
+    margin-top: 1rem;
+} 
+
+/*Media Query*/
+@media all and (max-width: 1824px) {
+
+  .masterDiv {  
+    width: auto;
+  }
+  #headingRow {
+    float: left;
+    width: auto;
+  }
+  .nav {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .nav a {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .img {
+    float: left;
+    width: auto;
+  }
+  .location-panel-title {
+    float: left;
+    width: auto;
+  }
+  .accordian {
+    float: left;
+    width: auto;
+  }
+  a {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  h4 {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  .margin {
+    width: auto;
+    float: left;
+  }
+  #two {
+    float: left;
+    width: auto;
+  }
+  #three {
+    float: left;
+    width: auto;
+  }
+  #four {
+    float: left;
+    width: auto;
+  }
+  #five {
+    float: left;
+    width: auto;
+  }
+}
+
+@media all and (max-width: 1224px) {
+
+  .masterDiv {  
+    width: auto;
+  }
+  #headingRow {
+    float: left;
+    width: auto;
+  }
+  .nav {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .nav a {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .img {
+    float: left;
+    width: auto;
+  }
+  .location-panel-title {
+    float: left;
+    width: auto;
+  }
+  .accordian {
+    float: left;
+    width: auto;
+  }
+  a {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  h4 {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  .margin {
+    width: auto;
+    float: left;
+  }
+  #two {
+    float: left;
+    width: auto;
+  }
+  #three {
+    float: left;
+    width: auto;
+  }
+  #four {
+    float: left;
+    width: auto;
+  }
+  #five {
+    float: left;
+    width: auto;
+  }
+}
+
+@media all and (max-width: 980px) {
+
+  .masterDiv {  
+    width: auto;
+  }
+  #headingRow {
+    float: left;
+    width: auto;
+  }
+  .nav {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .nav a {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .img {
+    float: left;
+    width: auto;
+  }
+  .location-panel-title {
+    float: left;
+    width: auto;
+  }
+  .accordian {
+    float: left;
+    width: auto;
+  }
+  a {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  h4 {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  .margin {
+    width: auto;
+    float: left;
+  }
+  #two {
+    float: left;
+    width: auto;
+  }
+  #three {
+    float: left;
+    width: auto;
+  }
+  #four {
+    float: left;
+    width: auto;
+  }
+  #five {
+    float: left;
+    width: auto;
+  }
+}
+@media all and (max-width: 768px) {
+
+  .masterDiv{  
+    width: auto;
+  }
+  #headingRow {
+    float: left;
+    width: auto;
+  }
+  .nav {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .nav a {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .img{
+    float: left;
+    width: auto;
+  }
+  .location-panel-title {
+    float: left;
+    width: auto;
+  }
+  .accordian {
+    float: left;
+    width: auto;
+  }
+  a {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  h4 {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  .margin {
+    width: auto;
+    float: left;
+  }
+  #two {
+    float: left;
+    width: auto;
+  }
+  #three {
+    float: left;
+    width: auto;
+  }
+  #four {
+    float: left;
+    width: auto;
+  }
+  #five {
+    float: left;
+    width: auto;
+  }
+}
+ 
+@media all and (max-width: 640px) {
+
+  .masterDiv {  
+    width: auto;
+  }
+  #headingRow {
+    float: left;
+    width: auto;
+  }
+  .nav {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .nav a {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .img {
+    float: left;
+    width: auto;
+  }
+  .location-panel-title {
+    float: left;
+    width: auto;
+  }
+  .accordian {
+    float: left;
+    width: auto;
+  } 
+  a {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  h4 {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+   .margin {
+    width: auto;
+    float: left;
+  }
+ #two {
+    float: left;
+    width: auto;
+  }
+  #three {
+    float: left;
+    width: auto;
+  }
+  #four {
+    float: left;
+    width: auto;
+  }
+  #five {
+    float: left;
+    width: auto;
+  }
+}
+
+@media all and (max-width: 414px) {
+
+  .masterDiv {  
+    width: auto;
+  }
+  #headingRow {
+    float: left;
+    width: auto;
+  }
+  .nav {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .nav a {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .img {
+    float: left;
+    width: auto;
+  }
+  .location-panel-title {
+    float: left;
+    width: auto;
+  }
+  .accordian {
+    float: left;
+    width: auto;
+  }
+  a {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  h4 {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  .margin {
+    width: auto;
+    float: left;
+  }
+  #two {
+    float: left;
+    width: auto;
+  }
+  #three {
+    float: left;
+    width: auto;
+  }
+  #four {
+    float: left;
+    width: auto;
+  }
+  #five {
+    float: left;
+    width: auto;
+  }
+}
+
+@media all and (max-width: 375px) {
+
+  .masterDiv {  
+    width: auto;
+  }
+  #headingRow {
+    float: left;
+    width: auto;
+  }
+  .nav {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .nav a {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .img {
+    float: left;
+    width: auto;
+  }
+  .location-panel-title {
+    float: left;
+    width: auto;
+  }
+  .accordian {
+    float: left;
+    width: auto;
+  }
+  a {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  h4 {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  .margin {
+    width: auto;
+    float: left;
+  }
+  #two {
+    float: left;
+    width: auto;
+  }
+  #three {
+    float: left;
+    width: auto;
+  }
+  #four {
+    float: left;
+    width: auto;
+  }
+  #five {
+    float: left;
+    width: auto;
+  }
+}
+
+@media all and (max-width: 320px) {
+
+  .masterDiv {  
+    width: auto;
+  }
+  #headingRow {
+    float: left;
+    width: auto;
+  }
+  .nav {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .nav a {
+    float: left;
+    width: auto;
+    padding-left: 0;
+  }
+  .img {
+    float: left;
+    width: auto;
+  }
+  .location-panel-title {
+    float: left;
+    width: auto;
+  }
+  .accordian {
+    float: left;
+    width: auto;
+  }
+  a {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  h4 {
+    font-size: auto;
+    width: auto;
+    position: fixed;
+  }
+  .margin {
+    width: auto;
+    float: left;
+  }
+  #two {
+    float: left;
+    width: auto;
+  }
+  #three {
+    float: left;
+    width: auto;
+  }
+  #four {
+    float: left;
+    width: auto;
+  }
+  #five {
+    float: left;
+    width: auto;
+  }
+}
