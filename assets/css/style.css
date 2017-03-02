@@ -224,9 +224,8 @@ body #five {
   padding-top: 10px;
   padding-left: 40px;
 }
-  //Create a contructor to creat month objects
 
-/* Rates/Booking Page */
+/* Rates/Booking Page 
 body{width:100%;height:700px;}
 #space{width:300px;margin:auto;margin-top:100px}
 .nopaddingnomargin{margin:0;padding:0;}
@@ -246,7 +245,7 @@ ul{list-style:none;}
 @keyframes circle{
   from{background:rgba(189, 195, 199, 0.2)}
   to{white;color:black;background:white;}
-}
+} */
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
@@ -260,7 +259,7 @@ ul{list-style:none;}
 
 @media screen and (max-width: 290px) {
     .weekdays li, .days li {width: 12.2%;}
-}
+} 
 
 /* Location Page */
 #masterDiv{
@@ -320,7 +319,7 @@ ul{list-style:none;}
 } 
 
 /*Media Query*/
-@media all and (max-width: 1824px) {
+/* @media all and (max-width: 1824px) {
 
   .masterDiv {  
     width: auto;
@@ -444,7 +443,7 @@ ul{list-style:none;}
     float: left;
     width: auto;
   }
-}
+} */
 
 @media all and (max-width: 980px) {
 
